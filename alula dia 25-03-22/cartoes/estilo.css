@@ -1,0 +1,65 @@
+/*estilo do cartões*/
+/* mechendo na TAG body do html*/
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #142f43;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+h2{
+   color: white;
+}
+
+#site{
+    border: 2px solid #4E6BDE;
+    width: 100vw;
+   
+}
+
+.cartao {
+    border: 2px solid #e99791;
+    width: 15em;
+    padding: 1em;
+    margin: 1.5em;
+    border-radius: 0.5em;
+    float: left; /* fica flutuando e nao usa trilho*/
+}
+/* buscando a imagen que ta no cartão para alterar somente ele*/
+.cartao .foto img{
+    width: 100%; /* 100% do espaço que eu tenho em relação ao que tenho*/
+    border-radius: 10px;
+}
+
+.cartao .texto{
+    margin-top: 10px;
+   
+}
+
+.cartao .texto p{
+    color: white;
+    margin: 0;
+}
+
+.espaco{
+    clear: both;
+}
+
+#tamanho{
+    font-size: 20px;
+}
+
+#dobro{
+    font-size: 2rem;
+
+}
+
+#triplo{
+    font-size: 3rem;
+
+}

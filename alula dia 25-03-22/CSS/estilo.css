@@ -1,0 +1,57 @@
+
+/*seletor{
+    propriedade1: valor1;
+    propriedade1: valor2;
+}
+
+seleciona todos os elementos com esta TAG
+tag{
+    propriedade1:valor1;
+}
+seleciona um único elemento com este ID 
+Necessita o atributo id no HTML
+#idDoElemento{
+    propriedade1:valor1;
+}
+Seleciona todos os elementos desta classe 
+Necessita o atributo class no HTML
+.classDosElementos{
+    propriedade1:valor1;    
+}    
+*/
+h1{
+    color:rgb(240, 12, 12);
+}
+p{
+    font-family: Arial;
+    text-align: justify;
+    font-weight: normal; /*bold deixa negrito*/
+}
+
+#primeiro{
+    text-align: center;
+    font-size: 18px;
+}
+
+.doces{
+    color: chocolate;
+}
+.salgados{
+    color: blue;
+}
+
+#box{
+    /* espessura tipo cor*/
+    border: 2px solid blue;
+    border-bottom: 2px solid red;
+}
+#caixa{
+    border: 2px solid orange;
+    width: 200px; /* definindo largura*/
+    height: 300px; /* definindo altura*/
+}
+.opcoes{
+    border: 1px solid blue;
+    display: inline-block;
+    width:100px;
+}
