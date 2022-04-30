@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(110, 107, 102);
+}
+
+#galeria{
+    background-color: rgb(58, 56, 52);
+    border: 2px solid rgb(22, 29, 22);
+}
+
+#grande{
+    margin: 1em;
+    text-align: center;
+}
+
+#miniaturas{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 0.5em;
+    row-gap: 0,5em;
+}
+
+.miniatura{
+    /*float: left;*/
+    text-align: center;
+    background-color: rgb(54, 53, 52);
+    border: 2px solid rgb(118, 122, 118);
+    padding: 1em;
+    transition: all 0.5s linear;
+
+}
+
+.miniatura:hover { /* Quando coloca o mouse em cima*/
+    background-color: rgb(90, 89, 88);
+    border-radius: 0;
+    filter: grayscale(0%) blur(0px);
+    filter: hue-rotate(360deg);
+}
+
+.miniatura img{
+    width: 100%;
+    display: block;
+    border-radius: 10%;
+    filter: hue-rotate(0deg);
+    transition: all 0.5s linear
+      
+}
+
+
+.miniatura:hover img{ /* Quando coloca o mouse em cima*/
+    border-radius: 0%;
+    filter: hue-rotate(360deg);
+    
+}

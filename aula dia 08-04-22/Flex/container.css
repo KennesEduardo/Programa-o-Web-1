@@ -1,0 +1,25 @@
+body{
+    color: aliceblue;
+}
+#container{
+    background-color: rgb(31, 29, 28);
+    width: 50vw;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: 25vh;
+
+    display: flex;
+    /*Direção da distribuição de item*/
+    flex-direction: row;  /*row = linha, column vira celular*/
+    /* Alinhamento no eixo principal*/
+    justify-content: space-between;
+    /* Quebrar ou não linha*/
+    flex-wrap: wrap; /*warp ou nowrap*/
+    /*Alinha no eixo secindário */
+    align-items: stretch; 
+
+}   
+.item{
+    background-color: rgb(168, 168, 187);
+    margin: 0.25em;
+}
