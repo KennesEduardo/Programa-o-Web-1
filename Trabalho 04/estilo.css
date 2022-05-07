@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+body{
+
+    font-family: Roboto;
+    height: 150vh;
+    /* Cor Sólida
+    background-color: rgb(21, 56, 56);*/
+
+    background-image: linear-gradient(rgb(165, 169, 173), rgb(37, 36, 36));
+    
+
+    /*Cores em Degradê Radial*/
+    /* background-image: radial-gradient(pink, violet, purple);*/
+    
+   /*background-image: url("poquebola.jpg"); Adiciona uma imagem de fundo*/
+   /*background-repeat: no-repeat; /* repeat-x no topo*, repeat-y coloca de vertical, no-repeat nao repete */
+   /*background-position: center center; /* Aqui voce coloca a posição, pode usar pixel exemplo 200px 100px*/
+   /*background-size: 100% ; /* pode colcoar pocentagem pixel exemplo 100px 200px*/
+
+
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+#menu{
+    height: 30vh; 
+    background-image: url("Fundo_menu.jpg");
+    background-position: center center; 
+    background-size: cover;
+    background-color: white;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
+
+}
+
+#menu ul{
+    list-style: none; /* Tirando as bolinhas da lista*/
+    padding: 0;
+    margin: 0;
+    
+}
+
+#menu ul li{
+    display:inline-block;
+    background-color: black;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    margin: 1em 1em;
+   }
+
+

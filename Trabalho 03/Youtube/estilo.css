@@ -1,0 +1,270 @@
+body{
+    background-color:white;
+    width: 100%;
+    height: auto;
+    
+
+}
+
+#site{
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+        "youtube          pesquisa                configuração"
+        "video            video                   publicidade"
+        "video            video                   surgerido1"
+        "video            video                   surgerido2"
+        "video            video                   surgerido3"
+        "video            video                   surgerido4"
+        "video            video                   surgerido5"
+        "nome-video       nome-video              surgerido6"
+        "nome-video       nome-video              surgerido7"
+        "comentario1      comentario1             surgerido8"
+        "comentario2      comentario2             surgerido8"
+        "comentario3      comentario3             surgerido9"
+        "comentario4      comentario4             surgerido9"
+        "comentario5      comentario5             surgerido10"
+        "comentario6      comentario6             surgerido10"
+
+
+    ;
+}
+
+#youtube{
+    background-color: hsl(0, 0%, 0%);
+    grid-area: youtube;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(235, 8, 8);
+    border-width: 5px;
+    height: 40px; /*altura*/
+    /*width: auto; /*largura*/
+}
+#pesquisa{
+    background-color: hsl(0, 0%, 15%);
+    grid-area: pesquisa;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(201, 124, 201);
+    border-width: 5px;
+    height: 40px;
+}
+#configuração{
+    background-color: hsl(0, 0%, 30%);
+    grid-area: configuração;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(31, 99, 247);
+    border-width: 5px;
+    height: 40px;
+}
+#video{
+    background-color: hsl(249, 94%, 81%);
+    grid-area: video;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(12, 12, 12);
+    border-width: 5px;
+    height: 700px;/*45em*/
+}
+#publicidade{
+    background-color: hsl(249, 43%, 32%);
+    grid-area: publicidade;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(235, 8, 8);
+    border-width: 5px;
+    height: 110px;
+}
+
+#surgerido1{
+    grid-area: surgerido1;
+    background-color: hsl(0, 100%, 49%);
+    color: white;   
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(189, 240, 192);
+    border-width: 5px;
+    height: 108px;
+}
+
+#surgerido2{
+    grid-area: surgerido2;
+    background-color: hsl(0, 0%, 0%);
+    color: white;   
+    text-align: center;
+    border-style: solid;
+    border-color: hsl(125, 100%, 50%);
+    border-width: 5px;
+    height: 108px;
+}
+#surgerido3{
+    grid-area: surgerido3;
+    background-color: hsl(0, 0%, 0%);
+    color: white;   
+    text-align: center;
+    border-style: solid;
+    border-color: hsl(125, 100%, 35%);
+    border-width: 5px;
+    height: 108px;
+}
+#surgerido4{
+    grid-area: surgerido4;
+    background-color: hsl(0, 0%, 0%);
+    color: white;   
+    text-align: center;
+    border-style: solid;
+    border-color: hsl(125, 100%, 25%);
+    border-width: 5px;
+    height: 108px;
+}
+#surgerido5{
+    grid-area: surgerido5;
+    background-color: hsl(0, 0%, 0%);
+    color: white;   
+    text-align: center;
+    border-style: solid;
+    border-color: hsl(125, 100%, 10%);
+    border-width: 5px;
+    height: 108px;
+}
+
+
+#nome-video{
+    background-color: hsl(249, 43%, 32%);
+    grid-area: nome-video;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(235, 8, 8);
+    border-width: 5px;
+    height: 225px;
+    
+}
+
+#surgerido6{
+    grid-area: surgerido6;
+    background-color: hsl(0, 0%, 0%);
+    color: white;   
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(189, 240, 192);
+    border-width: 5px;
+    height: 108px;
+}
+#surgerido7{
+    grid-area: surgerido7;
+    background-color: hsl(0, 0%, 0%);
+    color: white;   
+    text-align: center;
+    border-style: solid;
+    border-color: hsl(125, 100%, 50%);
+    border-width: 5px;
+    height: 108px;
+}
+
+#comentario1{
+    grid-area: comentario1;
+    background-color: hsl(197, 98%, 51%);
+    color: white;   
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(189, 240, 192);
+    border-width: 5px;
+    height: 50px;
+
+}
+
+#comentario2{
+    grid-area: comentario2;
+    background-color: hsl(249, 91%, 43%);
+    color: white;   
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(189, 240, 192);
+    border-width: 5px;
+    height: 50px;
+}
+#comentario3{
+    grid-area: comentario3;
+    background-color: hsl(238, 90%, 12%);
+    color: white;   
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(189, 240, 192);
+    border-width: 5px;
+    height: 50px;
+}
+
+#comentario4{
+    grid-area: comentario4;
+    background-color: hsl(240, 89%, 48%);
+    color: white;   
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(189, 240, 192);
+    border-width: 5px;
+    height: 50px;
+}
+
+#comentario5{
+    grid-area: comentario5;
+    background-color: hsl(237, 73%, 59%);
+    color: white;   
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(189, 240, 192);
+    border-width: 5px;
+    height: 50px;
+}
+
+#comentario6{
+    grid-area: comentario6;
+    background-color: hsl(245, 92%, 36%);
+    color: white;   
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(189, 240, 192);
+    border-width: 5px;
+    height: 50px;
+}
+
+
+
+
+#surgerido8{
+    grid-area: surgerido8;
+    background-color: hsl(0, 100%, 49%);
+    color: white;   
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(189, 240, 192);
+    border-width: 5px;
+    height: 108px;
+}
+
+#surgerido9{
+    grid-area: surgerido9;
+    background-color: hsl(0, 95%, 36%);
+    color: white;   
+    text-align: center;
+    border-style: solid;
+    border-color: hsl(125, 100%, 50%);
+    border-width: 5px;
+    height: 108px;
+}
+#surgerido10{
+    grid-area: surgerido10;
+    background-color: hsl(0, 96%, 21%);
+    color: white;   
+    text-align: center;
+    border-style: solid;
+    border-color: hsl(125, 100%, 35%);
+    border-width: 5px;
+    height: 108px;
+}

@@ -1,0 +1,138 @@
+
+#site{
+    width: 100%;
+    background-color: rgb(221, 219, 219);
+    
+}
+#topo{
+    height: 5vh;
+    color: black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10em;
+    background-color: azure;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    border: 4px solid rgb(86, 88, 86);
+   
+}
+.instagram{
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(147, 136, 185);
+    
+}
+
+.pesquisar{
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(147, 136, 185);  
+
+}
+
+.menu{
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(147, 136, 185);
+  
+}
+
+#corpo{
+    height: 26em;
+    color: black;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: rgb(64, 197, 197);
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    border: 4px solid rgb(118, 122, 118);
+   
+}
+
+
+#menu-galeria{
+    height: 2em;
+    color: black;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: rgb(34, 110, 110);
+    column-gap: 5em;
+    padding-top: 0.5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 0.5%;
+    border: 4px solid rgb(118, 122, 118);
+}
+
+.publicacoes{
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(147, 136, 185);
+}
+.reels{
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(147, 136, 185);
+}
+.video{
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(147, 136, 185);
+}
+.salvos{
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(147, 136, 185);
+}
+.marcados{
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(147, 136, 185);
+}
+
+#galeria{
+    height: 35em;
+    color: black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(34, 110, 110);
+    column-gap: 5em;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    border: 4px solid rgb(70, 73, 70);
+
+}
+
+.fotos{
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(147, 136, 185);
+}
+
+
+#rodape{
+    height: 7vh;
+    color: black;
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto auto auto auto auto auto auto;
+    background-color: rgb(34, 110, 110);
+    column-gap: auto;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    border: 4px solid rgb(70, 73, 70);
+    font-size: small;
+
+}
+
+.meta{
+    text-align: center;
+    border: 4px solid  rgb(147, 136, 185);  
+}

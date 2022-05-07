@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(34, 110, 110);
+}
+#container{
+    display: flex;
+    /*Direção da distribuição de item*/
+    flex-direction: row;  /*row = linha, column vira celular*/
+    /* Alinhamento no eixo principal*/
+    justify-content: space-between;
+    /* Quebrar ou não linha*/
+    flex-wrap: wrap; /*warp ou nowrap*/
+    /*Alinha no eixo secindário */
+    align-items: stretch; 
+  
+    color: aliceblue;
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 10vh;
+    margin-bottom: 40vh;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    background-color: rgb(34, 110, 110);
+    border: 4px solid rgb(218, 73, 15);  
+    
+
+} 
+
+.foto{
+    border: 4px solid rgb(160, 185, 160);  
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-right: 1em;
+    width: 5em;
+  
+
+
+}
+.um{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 15%;
+    
+}
+.dois{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 15%;
+}
+.tres{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 15%;
+}
+.quatro{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 15%;
+}
+
+.cinco{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 15%;
+}
+.seis{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 15%;
+}
+.sete{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 15%;
+}
+.oito{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 15%;
+}
+
+/* buscando a imagen que ta no cartão para alterar somente ele*/
+.img1  img{
+    padding-left: 1em;
+    width: 90%; /* 100% do espaço que eu tenho em relação ao que tenho*/
+  
+ 
+}
+.img2  img{
+    padding-left: 1em;
+    width: 90%; 
+
+ 
+}
+.img3  img{
+    padding-left: 1em;
+    width: 90%; 
+
+}
+.img4  img{
+    padding-left: 1em;
+    width: 90%; 
+ 
+}
+
+.img5  img{
+    padding-left: 1em;
+    width: 90%; 
+ 
+}
+.img6 img{
+    padding-left: 1em;
+    width: 90%; 
+ 
+}
+.img7  img{
+    padding-left: 1em;
+    width: 90%;
+ 
+}
+.img8  img{
+    padding-left: 1em;
+    width: 90%;
+ 
+}
+.retangulo{
+    width: 90%;
+    padding-block-start: 1em;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    background-color: #add8e6;
+    border: 1px solid #0fa7da;  
+
+}
